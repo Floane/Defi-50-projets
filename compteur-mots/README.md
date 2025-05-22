@@ -26,11 +26,11 @@ Fonctionnalités bonus : copier le texte ou le réinitialiser en un clic.
 ## 📸 Aperçu
 ![Aperçu de la maquette]
 
-![image.png](attachment:64fefd78-2768-4d90-9d1c-ff1d93254e71:image.png)
+![image.png](./compteur-mots/sources/maquette.png)
 
 ![Aperçu du site]
 
-![image.png](attachment:07640240-bd1a-4b88-a511-82fab9f4594b:image.png)
+![image.png](./compteur-mots/sources/capture-du-site.png)
 
 ---
 
