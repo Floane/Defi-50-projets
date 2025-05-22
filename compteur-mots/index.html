@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <!-- Typographie -->
+        <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
+        <!-- Icone -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Projet | Compteur de mots </title>
+    </head>
+    <body class="body">
+        <header>
+            <div id="mode-sombre">
+                <a><i class='bx bx-bulb'></i></i></a>
+            </div>
+        </header>
+
+        <main>
+            <div class="title">
+                <h1>Compteur de mots</h1>
+            </div>
+
+            <div class="card">
+                <div class="top-row">
+                    <div class="mots">
+                        <p>Mots</p>
+                        <span id="countWords">0</span>
+                    </div>
+                    <div class="separateur-vertical"></div>
+
+                    <div class="caracteres">
+                        <p>Caractères</p>
+                        <span id="countChars">0</span>
+                    </div>
+                    <div class="separateur-vertical"></div>
+
+                    <div class="avec-espaces">
+                        <p>Avec espaces</p>
+                        <span id="countWithSpaces">0</span>
+                    </div>
+                    <div class="separateur-vertical"></div>
+
+                    <div class="effacer">
+                        <p>Effacer</p>
+                        <a onclick="Effacer()"><i class='bx bx-trash'></i></a>
+                    </div>
+                    <div class="separateur-vertical"></div>
+
+                    <div class="copier">
+                        <p>Copier</p>
+                        <a onclick="Copier()" id="btn-copier"><i class='bx bx-copy'></i></a>
+                    </div>
+                </div>
+                
+                <div class="separateur-horizontal"></div>
+
+                <div class="zone-texte">
+                    <textarea id="zone-texte" placeholder="Tapez/Collez votre texte ici..."></textarea>
+                </div>
+            </div>
+
+            <script src="script.js"></script>
+        </main>
+        <footer>
+            <p>Fait par Floane <i class='bx bxs-heart' ></i></p>
+        </footer>
+
+        
+    </body>
+</html>
