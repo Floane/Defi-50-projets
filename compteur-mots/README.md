@@ -24,11 +24,11 @@ Fonctionnalités bonus : copier le texte ou le réinitialiser en un clic.
 ---
 
 ## 📸 Aperçu
-![Aperçu de la maquette]
+[Aperçu de la maquette]
 
 ![maquette](https://github.com/user-attachments/assets/f0946e83-f639-44ab-9b39-2574d4628b7d)
 
-![Aperçu du site]
+[Aperçu du site]
 
 ![capture-du-site](https://github.com/user-attachments/assets/9325bf5c-2afd-4e85-8b25-3deab2ab0147)
 
@@ -41,7 +41,3 @@ Fonctionnalités bonus : copier le texte ou le réinitialiser en un clic.
 - JavaScript
 - [Boxicons](https://boxicons.com/) pour les icônes
 - [Google Fonts](https://fonts.google.com/) pour la typographie
-
----
-
-## 💻 Lien vers le projet
